@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyDozHcEqAtVQMCTCETL15bgzZvnrkBoN9Y";
+const GEMINI_API_KEY = "";
 
 const AVAILABLE_MODELS = [
   'gemini-1.5-pro-002',
@@ -76,4 +76,5 @@ Only return the suggestions as a numbered list.`;
     .filter(Boolean);
 
   return suggestions.slice(0, 15);
+
 }
